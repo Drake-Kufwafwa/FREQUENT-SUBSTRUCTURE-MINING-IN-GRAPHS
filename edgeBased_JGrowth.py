@@ -76,7 +76,6 @@ class edgeBased_JGrowth:
             print(key)
             ##look at all occurances in ego networks starting at id 0
             for ego_network in self.graphs:
-                id_count+=1
                 #edge count - print (ego_network.GetEdges())
                 # #edge list of edges from each  ego network
                 
